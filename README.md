@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [single-price-card](https://github.com/nilton-manjate/single-price-card)
-- Live Site URL: [GitHub Pages](https://nilton-manjate.github.io/single-price-card)
+- Live Site URL: [GitHub Pages](https://nilton-manjate.github.io/single-price-grid/)
 
 ## My process
 
