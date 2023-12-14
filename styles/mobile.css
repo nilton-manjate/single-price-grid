@@ -26,11 +26,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 
 main {
   width: 365px;
-  margin: 50px 0;
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
