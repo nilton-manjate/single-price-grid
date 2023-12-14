@@ -1,0 +1,9 @@
+﻿main {
+  width: 730px;
+  display: grid;
+  grid-template-columns: 365px 365px;
+}
+
+#first {
+  grid-column: 1 / 3;
+}
