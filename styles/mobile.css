@@ -1,0 +1,25 @@
+﻿/* Importing fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+/* Reseting */
+* {
+  margin: 0;
+  paddin: 0;
+  box-sizing: border-box;
+}
+
+/* Declaring the variables*/
+
+:root {
+  /* Colors */
+  --cyan: hsl(179, 62%, 43%);
+  --brightYellow: hsl(71, 73%, 54%);
+  --lightGray: hsl(204, 43%, 93%);
+  --grayishBlue: hsl(218, 22%, 67%); 
+}
+
+/* Defining the body */
+
+body {
+  background-color: var(--lightGray);
+}
