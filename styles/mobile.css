@@ -22,4 +22,94 @@
 
 body {
   background-color: var(--lightGray);
+  font-family: 'Karla', sans-serif;
+}
+
+main {
+  width: 365px;
+  margin: auto;
+}
+
+#first {
+  background-color: white;
+}
+
+#first h1 {
+  margin-bottom: 30px;
+  color: var(--cyan);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#guarantee {
+  margin-bottom: 25px;
+  color: var(--brightYellow);
+  font-weight: bold;
+  font-size: 17px;
+}
+
+#text {
+  font-size: 16px;
+  color: var(--grayishBlue);
+  line-height: 30px;
+}
+
+#subscription {
+  background-color: var(--cyan);
+  color: white;
+}
+
+#subscription h2 {
+  margin-bottom: 30px;
+  font-size: 21px;
+}
+
+#price {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+#value {
+  font-size: 37px;
+  font-weight: bold;
+}
+
+#month {
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 17px;
+}
+
+#fullAccess {
+  font-size: 18px;
+}
+
+button {
+  margin-top: 35px;
+  background-color: var(--brightYellow);
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weigth: bold;
+  width: 305px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#why {
+  background-color: var(--grayishBlue);
+  color: white;
+}
+
+#why h3 {
+  margin-bottom: 30px;
+}
+
+#why p {
+  line-height: 25px;
+}
+
+article {
+  padding: 30px;
 }
