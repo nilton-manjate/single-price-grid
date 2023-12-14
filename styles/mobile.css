@@ -23,11 +23,17 @@
 body {
   background-color: var(--lightGray);
   font-family: 'Karla', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
   width: 365px;
-  margin: auto;
+  margin: 50px 0;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
 
 #first {
@@ -90,15 +96,23 @@ button {
   background-color: var(--brightYellow);
   color: white;
   border: none;
-  font-size: 20px;
+  font-size: 16px;
   font-weigth: bold;
   width: 305px;
   padding: 15px;
   border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid white;
 }
 
 #why {
-  background-color: var(--grayishBlue);
+  background-color: rgb(74, 190, 189);
   color: white;
 }
 
